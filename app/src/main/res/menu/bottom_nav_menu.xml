@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/menu_recents"
-        android:icon="@drawable/ic_recents"
-        android:title="@string/recents" />
+        android:id="@+id/menu_strikethru"
+        android:icon="@drawable/strikethru"
+        android:title="@string/strikethru" />
 
     <item
-        android:id="@+id/menu_share"
-        android:icon="@drawable/ic_share"
-        android:title="@string/share" />
+        android:id="@+id/menu_loadingv2"
+        android:icon="@drawable/loadingv2_stateful_selector"
+        android:title="@string/loadingv2" />
+
+    <item
+        android:id="@+id/menu_loadingv2_external"
+        android:icon="@drawable/loadingv2_vector"
+        android:title="@string/loadingv2" />
+
+    <item
+        android:id="@+id/menu_loadingv2_repeating"
+        android:icon="@drawable/loadingv2_ongoing_selector"
+        android:title="@string/loadingv2" />
+
+    <item
+        android:id="@+id/menu_plus_x"
+        android:icon="@drawable/plus_x"
+        android:title="@string/plus_x" />
 </menu>
